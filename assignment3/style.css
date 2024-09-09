@@ -1,0 +1,52 @@
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}        
+
+a{
+  color: red;
+}
+
+p {
+  color: white;
+  background-color: black;
+}
+
+.classes {
+  color: brown;
+  background-color: grey;
+}
+
+  #mainhead {
+   background-color: red;
+  color: black
+ }
+
+h2 {
+  color:aqua;
+  background-color: black;
+}
+
+h3 {
+  color: crimson;
+  background-color: burlywood;
+}
+
+h1 {
+  color:white;
+  background-color: crimson;
+}
+
+#explaination,#explaination h2, #explaination p {
+  background-color: beige;
+  color: black
+}
+
+.spanstyle {
+  color: black;
+  background-color: beige;
+}
