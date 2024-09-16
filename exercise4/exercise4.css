@@ -1,0 +1,56 @@
+h1 {
+    color: white;
+}
+
+#intro {
+    background-color: lightblue;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    color:red;
+    text-decoration: underline;
+}
+
+.doctor {
+    color: orange;
+    font-weight: bold;
+}
+h2 {
+    color: blue;
+}
+
+h3 {
+    background-color: yellow;
+    font-weight: bold
+}
+
+.inferno {
+    color: red;
+    font-weight: 200;
+}
+
+h4 {
+    color: yellow;
+    background-color: darkgreen;
+}
+
+.father {
+    background-color: lightgreen;
+}
+
+h5 {
+    color: red
+}
+
+#daughter {
+    background-color: yellow;
+}
