@@ -1,0 +1,70 @@
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}        
+
+a{
+  color: red;
+}
+
+p {
+  color: white
+}
+
+.classes {
+  color: brown;
+}
+
+
+
+h2 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1 {
+  color:orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+#explaination,#explaination h2, #explaination p {
+  background-color: beige;
+  color: black
+}
+
+.spanstyle {
+  color: black;
+  background-color: beige;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url(download.jpg)
+}
+
+.centertext {
+  text-align: center;
+}
+
+.justifytext {
+text-align: justify;
+}
+
+
+.border {
+border: 20px, solid, black;
+background-color: yellow;
+padding: 20px
+}
