@@ -58,12 +58,6 @@ nav li a{
     display: block;
 }
 
-nav li a:hover {
-    color: #FFFFFF00;
-    background-image: linear-gradient(to right top, #023b90, #0649ab, #0857c6, #0666e2, #0076ff);
-    display: inline-block;
-}
-
 .welcome{
     color: white;
     font-weight: bolder;
