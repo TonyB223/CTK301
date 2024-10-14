@@ -1,0 +1,125 @@
+body {
+    background-color: gray;
+}
+
+#wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 5px solid blue;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+
+}
+
+.header1 {
+    grid-column: span 15;
+    background-image: linear-gradient(to right top, #023b90, #0649ab, #0857c6, #0666e2, #0076ff);
+    padding: 20px;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+.header1 a {
+    text-decoration: none;
+    color: lightblue;
+    font-style: italic;
+}
+
+.header1 a:hover {
+    color: white;
+}
+
+nav {
+    grid-column: span 15;
+    background-color: #023b90;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav li {
+    width: 232px;
+    padding: 0px;
+    margin: 2px;
+    background-image: linear-gradient(to right top, #023b90, #0649ab, #0857c6, #0666e2, #0076ff);
+    display: inline-block;
+}
+
+nav li a {
+    color: lightblue;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.welcome{
+    color: white;
+    font-weight: bolder;
+}
+nav li a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+nav li a:active {
+    color: white
+}
+
+aside {
+    grid-column: span 5;
+    background-color: lightblue;
+    text-align: justify;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+main {
+    grid-column: span 10;
+    float: right;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.mainh2 {
+    color: blue;
+    border-bottom: 3px solid blue;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+main a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: darkred;
+}
+
+.floatimage {
+    float: right;
+    margin-right: 20px;
+    background-color: white;
+    border: blue solid 3px;
+}
+
+footer {
+    clear: both;
+    grid-column: span 15;
+    background-color: red;
+    border-top: blue solid 5px;
+    text-align: left;
+    padding: 0 10px;
+    font-weight: normal;
+}
+
+.transparent {
+    color: #FFFFFF00;
+}
+
